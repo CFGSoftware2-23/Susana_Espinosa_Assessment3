@@ -1,0 +1,43 @@
+1. Python Standard library
+
+2. The cycle structure and the Connectivity and Accessibility:
+A tree doesn't contain loops while the graph can have them.
+A tree is connected to every node while graphs don't have to be connected to any.
+
+3. They are both terms used to compare the efficiency in algorithms. Time complexity describes the time that an algorithm takes
+to be executed. The Space complexity describes the amount of memory that an algorithm needs to be executed.
+
+4.Bubble Sort is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares adjacent elements, and swaps them if they are in the wrong
+order.The pass through the list is repeated until the list is sorted. The algorithm gets this name because smaller elements "bubble" to the top of the list in
+each pass.
+The guaranteed at the end of the first pass refers to the largest of these "bubbles" moving first at the top of the list so it is guaranteed
+that this first move is always going to be in the right position since there are no larger elements.
+
+5.LIFO (Last-In-First-Out) and FIFO (First-In-First-Out) are rules that govern how elements are managed in data structures.
+They determine the order in which items are added and removed.
+
+LIFO (Last-In-First-Out - Stack):
+LIFO, known as "stack," means the last element added is the first to be removed. It's like a stack of plates, where you take from the top.
+In programming, this is used for tasks like tracking function calls and recursion.
+
+FIFO (First-In-First-Out - Queue):
+FIFO, known as "queue," means the first element added is the first to be removed. It's like a line of people, where the first in line is served first.
+In programming, this is used for things like print queues and breadth-first search
+
+6. A Balanced Binary Tree limits the height difference between left and right subtrees. This ensures efficient operations.
+The best root choice is the median element, promoting balance.
+
+Searching:
+
+    Begin at the root.
+    Compare value with current node.
+    If equal, found.
+    If smaller, move left, repeat.
+    If larger, move right, repeat.
+    Continue until found or leaf node.
+
+Benefits:
+
+    Eliminate half nodes per step.
+    Worst-case search: O(log n).
+    Unbalanced trees: O(n) worst-case.
